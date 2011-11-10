@@ -1,0 +1,105 @@
+body{
+	font-family: Verdana;
+    font-size: 15px;
+	width: 1366px;
+	height: 768px;
+	background-color: black;
+	
+}
+
+#container{
+	width: 80%;
+	height: 100%;
+	margin:0 auto;	
+	border: white 1px solid;
+	text-align: center;
+	color: white;	
+	font: strong;
+}
+
+.personaje{
+	background-position: center;
+	width: 290px;
+	height: 410px;
+	float: left;
+	margin-left:3%;
+	margin-right:3%;
+	cursor: pointer;
+	border: black 2px solid;
+}
+#guerrero{
+	background-image: url('guerrero2.jpg');
+		background-repeat: no-repeat;
+}
+
+#clerigo{
+	background-image: url('clerigo.jpg');
+		background-repeat: no-repeat;
+}
+
+#valkiria{
+	background-image: url('valkiria.jpg');
+		background-repeat: no-repeat;
+}
+.titulo{
+	margin-left: 14%;
+	margin-right:14%;
+	float:left;
+}
+#info{
+	position:relative;
+	float:left;
+	width: 400px;
+	height:200px;
+	border:white 1px solid;
+	margin-left:30px;
+	margin-top:20px;
+}
+#info form{
+   margin-top : 10%;
+   margin-left:20px;
+   
+}
+
+input{
+    border: 1px solid #A1A1A1;
+    width: 200px;
+    padding: 4px;
+	margin-bottom:5%;
+}
+.descripcion 
+{
+    
+    width: 100px;
+	
+}
+#caracteristicas{
+	border:white 1px solid;
+	width: 400px;
+	height:200px;
+	margin-top:20px;
+	position:relative;
+	margin-left:55%;
+}
+#caracteristicas ul li{
+  list-style:none;
+  text-align:justify;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.alerta 
+{
+    color: Red;
+	display: none;
+}
+
+
+
+
+
