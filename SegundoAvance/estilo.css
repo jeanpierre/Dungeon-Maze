@@ -1,0 +1,121 @@
+body{
+  font:62.5% Verdana Arial sans-serif;
+  color:#000;  
+
+  background-repeat:no-repeat;
+}
+
+#container{
+  
+  margin:0 auto;
+  width:1024px;
+  height: 768px;
+  border:1px solid black;
+}
+#banner{
+  border : 1px solid black;
+	width:1024px;
+  height: 168px;
+}
+
+#sub-banner1{
+  border : 1px solid black;
+  width:50%;
+   height: 100%;
+  float:left;
+}
+#sub-banner2{
+  border : 1px solid red;
+  width:50%;
+   height: 100%;
+  margin-left:50%;
+}
+
+
+#sub-banner1 img{
+  margin-left:1%;
+  margin-top:1%;
+}
+
+#main{
+  border : 1px solid yellow;
+  width:1024px;
+  height: 600px;
+
+
+}
+#sub-main{
+  margin:0 auto;
+  border : 1px solid blue;
+  width:820px;
+   height: 480px;
+   margin-top:55px;
+   background-color:white;
+}
+#image{
+float:left;
+}
+#llave{
+position:relative;
+margin-left:640px;
+}
+
+.imag{
+
+margin-left:50px;
+
+}
+
+#skull1{
+
+position:relative;
+top:170px;
+}
+#skull2{
+
+position:relative;
+top:300px;
+}
+#skull3{
+
+position:relative;
+top:80px;
+}
+#gold1{
+
+position:relative;
+top:300px;
+}
+#gold2{
+
+position:relative;
+top:100px;
+}
+#gold3{
+
+position:relative;
+top:200px;
+}
+#gold4{
+
+position:relative;
+top:350px;
+}
+#gold5{
+
+position:relative;
+top:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

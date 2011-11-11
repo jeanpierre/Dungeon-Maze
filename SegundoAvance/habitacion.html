@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> Dungeon Maze</title>
+	<script src="jquery.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		
+		var x1=0;
+		var y1=0;
+		var x2=0;
+		var y2=0;
+				
+		function moverNinja(direccion)
+		{
+				
+				
+			switch(direccion.keyCode)
+			{
+				case 38:
+      			if(y1>0){
+					y1-=5;
+					document.getElementById("image").style.top=String(y1)+"px";
+					}
+				break;
+				case 39:
+				if(x1>=-695){
+					x1-=5;
+					document.getElementById("image").style.right=String(x1)+"px";
+					}
+				break;
+				
+				case 40:
+				if(y1<=355){
+					y1+=5;
+					document.getElementById("image").style.top=String(y1)+"px";
+					}
+				break;
+				
+				case 37:
+				if(x1<0){
+					x1+=5;
+					document.getElementById("image").style.right=String(x1)+"px";
+				}
+				break;
+				
+			}	
+			if(x1<=(-645) && y1<(60)){
+				document.getElementById("image").style.visibility="hidden";
+				document.getElementById("llave").style.visibility="hidden";
+				}
+			
+				
+	
+	}
+	
+	</script>
+	<link rel="stylesheet" href="estilo.css" type="text/css" media="screen" />
+
+	</head>
+	<body onkeydown="moverNinja(event);">
+	  <div id = "container">
+		 <div id = "banner">
+			 <div id="sub-banner1">
+			 <img src="imagenes/imagen1.jpg"/> 
+			 </div>
+			 <div id="sub-banner2">
+			 </div>
+		</div>
+		 <div id = "main">
+		 
+			<div id = "sub-main">
+					
+		 <img src="imagenes/sonic.gif"  id="image" style="position:relative;"/>
+		 <img src="imagenes/llave.jpg"  id="llave"  />
+		 <img src="imagenes/skull.jpg" id="skull1" class="imag" />	
+		 <img src="imagenes/gold.jpg" id="gold1" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold2" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold3" class="imag"/>
+		 <img src="imagenes/skull.jpg" id="skull2"  class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold4" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold5" class="imag"/>
+		 <img src="imagenes/skull.jpg" id="skull3" class="imag"/>
+	
+			</div>
+		 </div>
+		 
+	  </div>
+	</body>
+</html>
