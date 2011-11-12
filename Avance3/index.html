@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Dungeon Maze</title>
+	<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+	<script src="jquery.datepicker.js" type="text/javascript"></script>
+	<link href="datepicker.css" rel="stylesheet" type="text/css" />	
+	<link href="miestilo.css" rel="stylesheet" type="text/css" />
+	<script language="JavaScript">
+	
+		function validar() {
+		
+        validarCampo("#nombre","#nick");
+		
+		
+		return false;
+	};
+	
+	function validarCampo(input_id1,input_id2) {
+	$(input_id1).next().hide();
+	$(input_id2).next().hide();
+        if ($(input_id1).val() == "") {
+            $(input_id1).next().show();
+			
+        }if($(input_id2).val() == ""){
+		$(input_id2).next().show();
+		
+		}
+		if($(input_id1).val() != "" && $(input_id2).val() != ""){
+		window.location = ("personajes.html"); 
+		}
+		
+       
+    };
+	
+	
+	</script>
+	
+</head>
+<body>
+
+	<div id="container" >
+		<h1 style="font-size: 100px;">Dungeon Maze</h1>
+		
+		<div id="info">
+		<form id="formulario" action="" method="post">
+			
+				<label for="nombre" class="descripcion">Name:</label>
+				<input type="text" name="nombre" id="nombre" /> 
+				<span class="alerta">X</span>
+				<br />            
+				<label for="nick" class="descripcion">Nick:</label>
+				<input type="text" name="nick" id="nick" />
+				<span class="alerta">X</span>
+				<br />        
+				
+				<input type="button" class="boton" onClick="validar();" value="Jugar" />
+				<input type="submit" class="boton"  value="Borrar" />
+		</form>
+		</div>
+		
+	</div>
+
+</body>
+</html>

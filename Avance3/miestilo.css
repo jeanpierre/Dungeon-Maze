@@ -1,0 +1,127 @@
+body{
+	font-family: Verdana;
+    font-size: 15px;
+	
+	background-color: black;
+	font-weight:bold;
+}
+
+#container{
+	width: 1280px;
+	height: 800px;
+	margin:0 auto;	
+	border: white 1px solid;
+	text-align: center;
+	color: white;	
+	margin-top:0px;
+	background-image: url('principal2.jpg');
+	
+}
+
+.personaje{
+	background-position: center;
+	width: 290px;
+	height: 410px;
+	float: left;
+	margin-left:5%;
+	margin-right:5%;
+	cursor: pointer;
+	border: black 2px solid;
+}
+
+#guerrero{
+	background-image: url('guerrero2.jpg');
+		background-repeat: no-repeat;
+}
+
+#clerigo{
+	background-image: url('clerigo.jpg');
+		background-repeat: no-repeat;
+}
+
+#valkiria{
+	background-image: url('valkiria.jpg');
+		background-repeat: no-repeat;
+}
+.titulo{
+	margin-left: 12%;
+	margin-right:12%;
+	float:left;
+	font-size:25px;
+}
+#info{
+	position:relative;
+	float:left;
+	width: 400px;
+	height:200px;
+	border:white 1px solid;
+	top:250px;
+	left:450px;
+}
+#info form{
+   margin-top : 10%;
+   margin-left:20px;
+   
+}
+
+input{
+    border: 1px solid #A1A1A1;
+    width: 200px;
+    padding: 4px;
+	margin-bottom:5%;
+	position:relative;
+}
+.boton{
+	
+    width: 100px;
+    font:verdana;
+	font-size:15px;
+	font-weight:bold;
+
+}
+#siguiente{
+position:absolute;
+margin-left:77%;
+
+}
+#anterior{
+margin-left:5%;
+position:absolute;
+}
+.descripcion 
+{
+    
+    width: 100px;
+	
+}
+#caracteristicas{
+	border:white 1px solid;
+	width: 210px;
+	height:180px;
+	top:50px;
+	position:relative;
+	margin-left:42%;
+	
+}
+#caracteristicas ul li{
+  list-style:none;
+  text-align:justify;
+  font-size:20px;
+ 
+}
+
+.clear{
+	clear: both;
+}
+
+
+.alerta 
+{
+    color: Red;
+	display: none;
+}
+
+
+
+
+
