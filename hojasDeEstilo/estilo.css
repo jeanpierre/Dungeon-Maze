@@ -1,0 +1,219 @@
+body{
+	font-family: Verdana;
+    font-size: 15px;
+	background-image:url('imagenes/fondo2.jpg');
+	background-repeat:no-repeat;
+	font-weight:bold;
+	color:white;
+}
+#container2{
+  
+	margin:0 auto;
+	width:1024px;
+	height: 768px;
+	border:1px solid black;
+}
+#banner{
+	border : 1px solid black;
+	width:1024px;
+	height: 168px;
+}
+#sub-banner1{
+	border : 1px solid red;
+	width:50%;
+	height: 100%;
+	float:left;	
+	background-color:black;
+}
+.miniImagen{
+	
+	margin-left:20px;
+	margin-right:20px;
+	width:110px;
+	height: 150px;
+	float:left;
+	margin-top:10px;
+
+}
+#setDatos{
+	color:red;
+	font-style: italic;
+}
+#sub-banner2{
+  
+	border : 1px solid blue;
+	width:50%;
+	height: 100%;
+	margin-left:50%;
+}
+#enfrentamiento{
+	position:relative;
+	margin:0 auto;
+	width:1024px;
+	height: 230px;
+	background-color:blue;
+	border:1px solid black;
+	background-image:url('imagenes/grass1.jpg');
+
+}
+#enfrentamiento h2{
+	text-align:center;
+	color:white;
+	
+}
+
+#lanzarDados{
+	margin-left:20px;
+}
+#miheroe{
+	float:left;
+	position:relative;
+	width:350px;
+	height:160px;
+	border:1px solid white;
+	margin-left:50px;
+	
+}
+#mienemigo{
+	float:left;
+	position:relative;
+	width:350px;
+	height:160px;
+	border:1px solid white;
+}
+#heroeEnfrentamiento{
+	margin-top:0px;
+}
+#enemigoImage{
+	margin-left:20px;
+	margin-right:20px;
+	width:135px;
+	height: 150px;
+	float:left;
+	
+
+}
+
+#main{
+	border : 1px solid black;
+	width:1024px;
+	height: 600px;
+	background-image:url('imagenes/grass1.jpg');
+}
+#muro{
+	position:relative;
+	border:white 1px solid;	
+	margin:0 auto;
+	top:30px;
+	width:890px;
+	height: 540px;
+	background-image:url('imagenes/wall.jpg');
+}
+#sub-main1{
+	position:relative;
+	margin:0 auto;	
+	width:800px;
+	height: 480px;
+	top:30px;
+	background-image:url('imagenes/floor.jpg');
+}
+
+#llave{
+	position:absolute;
+	left:750px;
+	width:50px;
+	height:50px;
+	top:10px;
+}
+
+#image{
+	z-index: 1;
+	float:left;
+	width:50px;
+	height:50px;
+	position:absolute;
+}
+
+.imag{
+
+	position:relative;
+}
+
+#skull1{
+
+	top:100px;
+	left:300px;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	position:absolute;
+}
+#skull2{
+	z-index: 1;
+	width:50px;
+	top:400px;
+	left:250px;
+	height:50px;
+	position:absolute;
+}
+#skull3{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:300px;
+	left:500px;
+
+}
+#skull4{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:100px;
+	left:600px;
+
+}
+#skull5{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:400px;
+	left:700px;
+}
+.imag{
+
+	width:30px;
+	height:30px;
+}
+#gold1{
+	top:200px;
+	position:absolute;
+}
+
+
+#gold2{
+	position:absolute;
+	top:350px;
+	left:200px;
+}
+#gold3{
+	position:absolute;
+	top:150px;
+	left:600px;
+}
+
+
+#gold4{
+	position:absolute;
+	top:200px;
+	left:400px;
+}
+#gold5{
+	position:absolute;
+	top:50px;
+	left:300px;
+}
+
+
