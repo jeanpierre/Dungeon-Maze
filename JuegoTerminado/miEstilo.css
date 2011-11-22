@@ -1,0 +1,338 @@
+body{
+	font-family: Verdana;
+    font-size: 15px;
+	background-image:url('imagenes/fondo2.jpg');
+	background-repeat:no-repeat;
+	font-weight:bold;
+	color:white;
+}
+#container1{  
+	width: 1280px;
+	height: 768px;
+	margin:0 auto;	
+	border: green 1px solid;
+	text-align: center;
+	color: white;	
+	margin-top:0px;
+	background-image: url('imagenes/principal.jpg');
+	
+}
+h1{
+	font-size: 50px;
+	color:red;
+
+}
+.personaje{
+	background-position: center;
+	width: 290px;
+	height: 410px;
+	float: left;
+	margin-left:5%;
+	margin-right:5%;
+	cursor: pointer;
+	border: black 2px solid;
+}
+.personaje:hover{
+	border: green 2px solid;
+}
+
+#guerrero{
+	background-image: url('imagenes/guerrero.jpg');
+	background-repeat: no-repeat;
+}
+
+#clerigo{
+	background-image: url('imagenes/clerigo.jpg');
+	background-repeat: no-repeat;
+}
+
+#valkiria{
+	background-image: url('imagenes/valkiria.jpg');
+	background-repeat: no-repeat;
+}
+.titulo{
+	margin-left: 12%;
+	margin-right:12%;
+	float:left;
+	font-size:25px;
+}
+#caracteristicas{
+	float:left;
+	border:white 1px solid;
+	width: 250px;
+	height:150px;
+	top:10px;
+	position:relative;
+	left:200px;
+	visibility:hidden;	
+}
+
+
+#info{
+	float:left;
+	position:relative;	
+	width: 400px;
+	height:130px;
+	border:white 1px solid;
+	top:10px;
+	left:500px;
+	padding-top:20px;
+	visibility:hidden;	
+}
+
+input{
+    border: 1px solid #A1A1A1;
+    width: 200px;
+    padding: 4px;
+	margin-bottom:5%;
+	position:relative;
+}
+.boton{	
+    width: 100px;
+    font:verdana;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#anterior{
+	margin-left:5%;
+	position:absolute;
+}
+
+.descripcion {    
+    width: 100px;	
+}
+
+
+.clear{
+	clear: both;
+}
+.alerta 
+{
+    color: Red;
+	display: none;
+}
+
+
+
+
+
+
+#container2{
+  
+	margin:0 auto;
+	width:1024px;
+	height: 768px;
+	
+}
+#banner{
+	border : 1px solid black;
+	width:1024px;
+	height: 168px;
+}
+#sub-banner1{
+	border : 1px solid red;
+	width:50%;
+	height: 100%;
+	float:left;	
+	background-color:black;
+}
+.miniImagen{
+	
+	margin-left:20px;
+	margin-right:20px;
+	width:110px;
+	height: 150px;
+	float:left;
+	margin-top:10px;
+
+}
+#setDatos{
+	color:red;
+	font-style: italic;
+}
+#sub-banner2{
+  
+	border : 1px solid blue;
+	width:50%;
+	height: 100%;
+	margin-left:50%;
+}
+#enfrentamiento{
+	position:relative;
+	margin:0 auto;
+	width:1024px;
+	height: 260px;
+	background-color:blue;
+	border:1px solid black;
+	background-image:url('imagenes/pergamino1.jpg');
+
+}
+#enfrentamiento h2{
+	text-align:center;
+	color:white;
+	font-size:30px;
+}
+
+#lanzarDados{
+	margin-left:20px;
+	
+}
+#miheroe{
+	float:left;
+	position:relative;
+	width:350px;
+	height:160px;
+	
+	margin-left:50px;
+	
+}
+#mienemigo{
+	float:left;
+	position:relative;
+	width:350px;
+	height:160px;
+	
+	
+}
+#heroeEnfrentamiento{
+	margin-top:0px;
+}
+#enemigoImage{
+	margin-left:20px;
+	margin-right:20px;
+	width:135px;
+	height: 150px;
+	float:left;
+	
+
+}
+
+#main{
+	width:1024px;
+	height: 600px;
+	background-image:url('imagenes/grass1.jpg');
+}
+#muro{
+	position:relative;
+	border:white 1px solid;	
+	margin:0 auto;
+	top:30px;
+	width:890px;
+	height: 540px;
+	background-image:url('imagenes/wall.jpg');
+}
+#sub-main1{
+	position:relative;
+	margin:0 auto;	
+	width:800px;
+	height: 480px;
+	top:30px;
+	background-image:url('imagenes/floor.jpg');
+}
+
+#llave{
+	position:absolute;
+	left:750px;
+	width:50px;
+	height:50px;
+	top:10px;
+}
+
+#image{
+	z-index: 1;
+	float:left;
+	width:50px;
+	height:50px;
+	position:absolute;
+	border:1px solid white;
+}
+
+.imag{
+
+	position:relative;
+}
+
+#skull1{
+
+	top:100px;
+	left:300px;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	position:absolute;
+	border:1px solid white;
+}
+#skull2{
+	z-index: 1;
+	width:50px;
+	top:400px;
+	left:250px;
+	height:50px;
+	position:absolute;
+	border:1px solid white;
+}
+#skull3{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:300px;
+	left:500px;
+	border:1px solid white;
+
+}
+#skull4{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:100px;
+	left:600px;
+	border:1px solid white;
+
+}
+#skull5{
+	position:absolute;
+	z-index: 1;
+	width:50px;
+	height:50px;
+	top:400px;
+	left:700px;
+	border:1px solid white;
+}
+.imag{
+
+	width:30px;
+	height:30px;
+}
+#gold1{
+	top:200px;
+	position:absolute;
+}
+
+
+#gold2{
+	position:absolute;
+	top:350px;
+	left:200px;
+}
+#gold3{
+	position:absolute;
+	top:150px;
+	left:600px;
+}
+
+
+#gold4{
+	position:absolute;
+	top:200px;
+	left:400px;
+}
+#gold5{
+	position:absolute;
+	top:50px;
+	left:300px;
+}
+
+
