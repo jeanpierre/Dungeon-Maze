@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Dungeon Maze :: La vida es demasiado corta para jugar al ajedrez</title>
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="jquery.corner.js" type="text/javascript"></script>
+	<link href="index.css" rel="stylesheet" type="text/css" />
+	<link href="miEstilo.css" rel="stylesheet" type="text/css" />
+	<script src="miScript.js" type="text/javascript"></script>
+	<script src="banner.js" type="text/javascript"></script>
+
+	<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="description" content="Dungeon Maze es el juego de laberintos más popular de su categoria donde tienes que capturar la llave para ganar" >
+	<meta name="keywords" content="juegos de laberintos, dungeon maze, juegos de valkirias, juegos de clerigos, juegos de guerreros" >
+	<meta name="author" content="Angulo-Levano" >	
+	<meta name="category" content="Juegos" >
+	<meta name="language" content="Español" >
+	<meta name="generator"  content="NotePad++" >
+
+
+
+	
+</head>
+<body onkeydown="moverPersonaje(event);">
+<div id = "container2">
+	<div id = "banner">
+	
+	  <div id="sub-banner1">
+		<div class="miniImagen"></div>
+		<div id="setDatos"></div><br/>			
+		<div class="setAttack"></div>
+		<div class="setDefense"></div>
+		<div class="setDamage"></div>
+		<div class="setLife"></div>	
+		<div id="setPoints"></div> 	
+		
+			
+	 </div>
+		 
+	<div id="sub-banner2">
+		<img src="imagenes/banner1.jpg" alt="" />
+	 </div>
+ </div>
+
+	   <div id = "main">
+		 <div id="muro">
+		 
+		 <div id = "sub-main1" >
+						
+		 <img src="imagenes/flash.png"  id="image" class="imag"/>
+		 <img src="imagenes/llave.jpg"  id="llave"  class="imag"/>
+		 <img src="imagenes/skull.jpg" id="skull1" class="imag" />	
+		 <img src="imagenes/gold.jpg" id="gold1" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold2" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold3" class="imag"/>
+		 <img src="imagenes/skull.jpg" id="skull2"  class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold4" class="imag"/>
+		 <img src="imagenes/gold.jpg" id="gold5" class="imag"/>
+		 <img src="imagenes/skull.jpg" id="skull3" class="imag"/>
+		<img src="imagenes/skull.jpg" id="skull4" class="imag"/>
+		<img src="imagenes/skull.jpg" id="skull5" class="imag"/>
+		</div>
+		
+		
+		
+	 </div>
+	</div> 
+	<div id="enfrentamiento">
+	  <h2>Enfrentamiento</h2>
+	  <div id="miheroe">
+		<div id="heroeEnfrentamiento" class="miniImagen"></div>					
+		<div class="setAttack"></div><br/>
+		<div class="setDefense"></div><br/>
+		<div class="setDamage"></div><br/>
+		<div class="setLife"></div>	
+		<button id="atacar" onClick="atacarEnemigo();" >Atacar</button>
+	   </div>
+	   <div id="mienemigo">
+		<div id="enemigoImage"></div>					
+		<div id="enemigoAttack"></div><br/>
+		<div id="enemigoDefense"></div><br/>
+		<div id="enemigoDamage"></div><br/>
+		<div id="enemigoLife"></div><br/>		
+	   </div>
+	   
+		<canvas id="canvas" width="250" height="110">
+		No HTML for you
+		</canvas>
+		<br/>
+		<button id="lanzarDados" onClick ="throwdice();">Lanza los dados</button>
+	   
+			
+	</div>
+
+</div>
+<div id="container1" >
+		<h1 >Dungeon Maze</h1><br/>	
+
+	<div id="imagenesPersonajes">
+		<div id="guerrero" class="personaje"></div>
+		<div id="clerigo" class="personaje"></div> 
+		<div id="valkiria" class="personaje"></div>	
+			
+		<div class="clear"></div>
+			
+		<label for="guerrero" class="titulo">Guerrero</label>
+		<label for="clerigo" class="titulo" >Clérigo</label>
+		<label for="valkiria" class="titulo">Valkiria</label>
+		
+		<div class="clear"></div>
+	</div>
+   <form id="formulario" action="" method="post">
+	
+	<div id="caracteristicas" >		
+	<ul>
+		<div id="attack"></div><br/>
+		<div id="defense"></div><br/>
+		<div id="damage"></div><br/> 
+		<div id="life"></div> <br/> 		
+	</ul>
+	</div>		
+	<div id="info">
+	<form id="formulario" action="" method="post">
+			
+		<label for="nombre" class="descripcion">Name:</label>
+		<input type="text" name="nombre" id="nombre" /> 
+		<span class="alerta">X</span><br />            
+		
+		<label for="nick" class="descripcion">Nick:</label>
+		<input type="text" name="nick" id="nick" />
+		<span class="alerta">X</span><br />        
+				
+		<input type="button" class="boton" onClick="validar('#nombre','#nick');" value="Jugar" />
+		<input type="submit" class="boton"  value="Borrar" />
+	</form>
+	</div>
+		
+  </div>
+
+</body>
+</html>
